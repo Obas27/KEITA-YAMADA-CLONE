@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    background-color: rgb(24, 21, 21);
+    border: 1px solid white;
+    height: 100%;
+    margin: 20px;
+    padding-bottom: 60px;
+}
+
+.head{
+    padding: 30px;
+    color: white;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding-top: -10px;
+  
+}
+li{
+    margin-bottom: 12px;
+}
+li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition:color ease-in-out 0.12s;
+}
+li a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+}
+.onee{
+    margin-top: 8px;
+}
+._dot,._dot1{
+    display: none;
+}
+._dot2{
+    display: none;
+}
+._dot3{
+    display: none;
+}
+.text4{
+    display: none;
+}
+._dot5{
+    display: none;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   margin-right: 50px;
+}
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    margin-bottom: 40px
+}
+a{
+    text-decoration:;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul{
+    margin-bottom: 40px;
+}
+span{
+    color: white;
+    font-size: 15px;
+}

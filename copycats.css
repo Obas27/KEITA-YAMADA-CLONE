@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 21, 21);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+   height: 95%;
+    border: 1px solid white;
+    margin: 25px;
+    align-items: flex-start;
+}
+.head{
+    padding: 20px;
+    color: white;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding-top: 50px;
+  
+
+}
+li{
+    margin-bottom: 12px;
+}
+li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition:color ease-in-out 0.12s;
+}
+li a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+
+}
+._dot,._dot1,._dot2,._dot3,._dot4{
+    display: none;
+}
+.text5{
+    display: none;
+}
+.onee{
+    margin-top: 8px;
+}
+section{
+    float: right;
+    width: 600px;
+    padding-right: 20px;
+}
+section h4{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: -120px;
+margin-bottom: 20px;
+}
+p{
+    color: white;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+}

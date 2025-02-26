@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    background-color: rgb(24, 21, 21);
+    border: 1px solid white;
+    height: 93vh;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.head{
+    padding: 30px;
+    color: white;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding-top: 40px;
+ 
+}
+li{
+    margin-bottom: 12px;
+}
+li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition:color ease-in-out 0.12s;
+}
+li a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+}
+.onee{
+    margin-top: 8px;
+}
+._dot{
+display: none;
+}
+.text1,._dot2,._dot3,._dot4,._dot5{
+    display: none;
+}
+.projects{
+   height: 95vh;
+   margin-top: -200px;
+   padding-right: 15px;
+   
+
+}
+.project-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap:30px;
+    overflow: scroll;
+
+}
+.project-title{
+    color:white;
+    text-decoration: none;
+    font-size:50px;
+    font-weight:lighter;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-info{
+   color:white;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 15px;
+   font-family: Arial;
+   align-items: flex-end;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+}

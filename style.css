@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    background-color: rgb(24, 21, 21);
+    border: 1px solid white;
+    height: 100vh;
+    max-height: 93vh;
+    width: 100%;
+    
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.head{
+    padding: 30px;
+    color: white;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding-top: 40px;
+}
+li{
+    margin-bottom: 12px;
+}
+li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition:color ease-in-out 0.12s;
+}
+li a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+}
+.onee{
+    margin-top: 8px;
+}
+._dot1,._dot2,._dot3,._dot4,._dot5{
+    display: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+.info-about-me{
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 150px;
+}
+.info-about-me p{
+    line-height: 1.2;
+}
+@media (min-width:344px) and (max-width:359px){
+    .info{
+        
+        margin-top: 175px;
+    }
+}
+@media (min-width:360px) and (max-width:374px){
+    .info{
+        margin-top: 90px;
+    }
+}
+@media (min-width:375px) and (max-width:389px){
+    .info{
+        margin-top: 20px;
+    }
+}
+@media (min-width:390px) and (max-width:411px){
+    .info{
+        margin-top: 190px;
+    }
+}
+@media (min-width:412px)  and (max-width:413px) {
+    .info{
+        margin-top: 250px;
+    }
+}
+@media (min-width:414px) and (max-width:429px) {
+    .info{
+        margin-top: 230px;
+    }
+}
+@media (min-width:430px) and (max-width:539px){
+    .info{
+        margin-top: 265px;
+    }
+}
+@media (min-width:540px) and (max-width:767px){
+    .info{
+        margin-top: 65px;
+    }
+}
+@media (min-width:768px) and (max-width:819px){
+    .info{
+        margin-top: 335px;
+    }
+}
+@media (min-width:820px) and (max-width:852px){
+    .info{
+        margin-top: 485px;
+    }
+}
+@media (min-width:853px) and (max-width:911px){
+    .info{
+        margin-top: 585px;
+    }
+}
+@media (min-width:912px) and (max-width:1023px){
+    .info{
+        margin-top: 655px;
+    }
+}
+@media (min-width:1024px) {
+    .info{
+        margin-top:660px;
+    }
+}
+@media (min-width:1280px){
+    .info{
+        margin-top:140px;
+    }
+}
+

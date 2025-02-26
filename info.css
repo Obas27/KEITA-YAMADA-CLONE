@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 21, 21);
+    border: 1px solid white;
+    height: 100%;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.head{
+    padding: 20px;
+    color: white;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: none;
+    padding-top: 40px;
+  
+}
+li{
+    margin-bottom: 12px;
+}
+li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition:color ease-in-out 0.12s;
+}
+li a:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+
+}
+
+._dot,._dot1,._dot3,._dot4,._dot5{
+    display: none;
+}
+.text3{
+    display: none;
+}
+.onee{
+    margin-top: 8px;
+}
+
+ .works{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -310px;
+    padding-right: 25px;
+}
+ .works a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial;
+ }
+.works a:hover{
+
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+
+}
+.socials{
+    margin-top: 270px;
+    dominant-baseline: 12px;
+}
+.socials li{
+  list-style: none;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.soc:hover{
+    color: rgba(214, 227, 214, 0.401);
+    cursor: pointer;
+}
+.awards{
+ margin-top: 180px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ padding-right: 20px;
+ font-family: Arial;
+line-height: 10px;
+}
+.awards ul li{
+    color: white;
+    list-style: none;
+    font-size: 12px;
+}
+.year{
+    font-weight: bold;
+    font-weight: 13px;
+    font-family: Arial;
+}
