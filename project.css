@@ -57,7 +57,7 @@ display: none;
    height: 95vh;
    margin-top: -200px;
    padding-right: 15px;
-   
+   overflow-y: scroll;
 
 }
 .project-list{
@@ -65,7 +65,6 @@ display: none;
     flex-direction: column;
     justify-content: flex-end;
     row-gap:30px;
-    overflow: scroll;
 
 }
 .project-title{
